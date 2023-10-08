@@ -623,5 +623,9 @@ background: #fff;
         font-size: 2.5rem;
     }
     .footer{text-align: center;}
+    .home .content p{
+        width:30rem;
+        
+    }
     
 }
