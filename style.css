@@ -541,6 +541,7 @@ color: #fff;
 .footer .box-container .box .payment-img{
     /* margin-top: 1rem; */
     height: 7rem;
+    display:block;
 }
 .footer .credit{
     text-align: center;
