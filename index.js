@@ -40,51 +40,106 @@ window.onscroll=()=>{
     searchfoam.classList.remove('active');
 
 
-}
-var swiper = new Swiper(".product-slider", {
-    loop:true,
-    spaceBetween: 20,
-   autoplay:{
-    delay:7500,
-    disableOnInteraction:false,
-   },
-   centeredSlides:true,
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
+}var swiper = new Swiper(".product-slider", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop:true,
+  autoplay:{
+         delay:1000,
+         disableOnInteraction:true,
+        },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
       
-      },
-      768: {
-        slidesPerView: 2,
-      
-      },
-      1020: {
-        slidesPerView: 3,
-       
-      },
     },
-  });
+    768: {
+      slidesPerView: 2,
+      
+    },
+    1024: {
+      slidesPerView: 3,
+      
+    },
+  },
+});
+var swiper = new Swiper(".review-slider", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop:true,
+  autoplay:{
+         delay:1000,
+         disableOnInteraction:true,
+        },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      
+    },
+    768: {
+      slidesPerView: 2,
+      
+    },
+    1024: {
+      slidesPerView: 3,
+      
+    },
+  },
+});
+// var swiper = new Swiper(".product-slider", {
+//     loop:true,
+//     spaceBetween: 20,
+//    autoplay:{
+//     delay:7500,
+//     disableOnInteraction:false,
+//    },
+//    centeredSlides:true,
+//     breakpoints: {
+//       0: {
+//         slidesPerView: 1,
+      
+//       },
+//       768: {
+//         slidesPerView: 2,
+      
+//       },
+//       1020: {
+//         slidesPerView: 3,
+       
+//       },
+//     },
+//   });
 
-  var swiper = new Swiper(".review-slider", {
-    loop:true,
-    spaceBetween: 20,
-   autoplay:{
-    delay:7500,
-    disableOnInteraction:false,
-   },
-   centeredSlides:true,
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
+//   var swiper = new Swiper(".review-slider", {
+//     loop:true,
+//     spaceBetween: 20,
+//    autoplay:{
+//     delay:7500,
+//     disableOnInteraction:false,
+//    },
+//    centeredSlides:true,
+//     breakpoints: {
+//       0: {
+//         slidesPerView: 1,
       
-      },
-      768: {
-        slidesPerView: 2,
+//       },
+//       768: {
+//         slidesPerView: 2,
       
-      },
-      1020: {
-        slidesPerView: 3,
+//       },
+//       1020: {
+//         slidesPerView: 3,
        
-      },
-    },
-  });
+//       },
+//     },
+//   });
